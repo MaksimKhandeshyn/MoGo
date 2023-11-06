@@ -7,7 +7,7 @@
 body {
     font-family: 'Montserrat';
 }
-.title {
+.logo {
     color: var(--extra-color);    
     font-size: 30px;
     font-weight: 700;
@@ -20,29 +20,26 @@ body {
     font-size: 14px;
     text-decoration: none;
 }
-.hero-title, .who-we-are {
-    color: var(--add-color);
+.nav-link:hover, .nav-link:focus {
+    color: var(--acceent-color);
+}
+.same-title {
+    color: #333;
     font-family: Kaushan Script;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
-.amazing-services, .meet-team{
-    color: var(--add-color); 
+.same-subtitle {
+    color: #333;
     font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     font-variant: all-small-caps;
 }
-.hero-list-title {
-    color: var(--add-color);
+.services-list-title {
+    color: #333;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
 }
-.hero-list-info {
+.services-list-info {
     color: var(--main-color);
     font-family: Roboto;
     font-size: 15px;
@@ -60,7 +57,6 @@ body {
     text-align: center;
     font-size: 14px;
     font-weight: 400;
-    font-variant: all-small-caps;
 }
 .position {
     color: var(--main-color);
@@ -74,14 +70,9 @@ body {
     color: var(--add-color);
     text-align: center;
     font-size: 14px;
-    font-style: normal;
 }
 .footer-link {
     color: var(--acceent-color);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration: none;
 }
 .footer-field {
@@ -93,8 +84,6 @@ body {
 }
 .footer-btn {
     background-color: var(--extra-color);
-    height: 40px;
-    width: 150px;
     border: none;
     color: #FFF;
     font-size: 14px;
