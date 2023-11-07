@@ -19,22 +19,23 @@ body {
     color: var(--extra-color);
     font-size: 14px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 .nav-link:hover, .nav-link:focus {
     color: var(--acceent-color);
 }
 .same-title {
-    color: #333;
+    color: var(--add-color);
     font-family: Kaushan Script;
     font-size: 24px;
 }
 .same-subtitle {
-    color: #333;
+    color: var(--add-color);
     font-size: 30px;
     font-variant: all-small-caps;
 }
 .services-list-title {
-    color: #333;
+    color: var(--add-color);
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
@@ -57,6 +58,7 @@ body {
     text-align: center;
     font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 .position {
     color: var(--main-color);
@@ -89,4 +91,5 @@ body {
     font-size: 14px;
     font-weight: 700;
     font-variant: all-small-caps;
+    padding: 11px 38px 12px;
 }
