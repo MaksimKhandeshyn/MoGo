@@ -56,8 +56,17 @@ img {
   padding-top: 17px;
   padding-bottom: 12px;
 }
+.container-position {
+  display: flex;
+}
+.nav {
+  display: flex;
+}
 .nav-list {
   list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
 }
 .nav-link {
   color: var(--extra-color);
@@ -65,20 +74,41 @@ img {
   text-decoration: none;
   text-transform: uppercase;
 }
+.nav-item + .nav-item {
+  margin-left: 55px;
+}
+.nav-list:first-child {
+  margin-left: 632px;
+}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--acceent-color);
+}
+.services {
+  margin-top: 130px;
 }
 .same-title {
   color: var(--add-color);
   font-family: Kaushan Script;
   font-size: 24px;
+  text-align: center;
 }
 .same-subtitle {
   color: var(--add-color);
   font-size: 30px;
   font-variant: all-small-caps;
   padding-top: 20px;
+  text-align: center;
+}
+/* .container-services {
+  display: flex;
+  width: 1168px;
+  flex-wrap: wrap;
+} */
+.services-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .services-list-title {
   color: var(--add-color);
@@ -93,6 +123,9 @@ img {
   line-height: 1.46;
   padding-top: 20px;
 }
+.team {
+  margin-top: 100px;
+}
 .meet-our-team {
     padding-top: 17px;
 }
@@ -102,6 +135,11 @@ img {
   font-family: Roboto;
   font-size: 15px;
   padding-top: 45px;
+}
+.team-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 27px;
 }
 .name {
   color: var(--add-color);
@@ -120,11 +158,16 @@ img {
   font-weight: 300;
   padding-top: 11px;
 }
+.footer {
+  margin-top: 80px;
+}
 .footer-copyright {
   color: var(--add-color);
   text-align: center;
   font-size: 14px;
+  margin-right: 523px;
 }
+/*Доделать футер*/
 .footer-link {
   color: var(--acceent-color);
   text-decoration: none;
