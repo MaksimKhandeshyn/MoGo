@@ -100,17 +100,14 @@ img {
   padding-top: 20px;
   text-align: center;
 }
-/* .container-services {
-  display: flex;
-  width: 1168px;
-  flex-wrap: wrap;
-} */
 .services-list{
+  padding-top: 65px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  column-gap: 125px;
 }
 .services-list-title {
+  padding-top: 100px;
   color: var(--add-color);
   text-transform: uppercase;
   font-size: 14px;
